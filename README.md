@@ -75,7 +75,28 @@ Those two are simply the ones that have been checked.
 
 **4.** Turn on the GoldHEN Plugin Loader and start the game.
 
-One file, nothing else. The logo is built in.
+One file to copy, nothing else. The logo is built into the plugin.
+
+### What it creates on your PS4
+
+The first time it runs, the menu makes a folder of its own:
+
+```
+/data/Ace-High/
+```
+
+Three files end up in there:
+
+| File | What it is |
+|---|---|
+| `acehigh.ini` | your settings — menu style, open button, hotkeys, saved locations |
+| `acehigh.log` | what happened on load, useful if the menu does not start |
+| `ace-high.png` | the logo, written out so it can show on the PS4 notifications |
+
+Nothing else on your console is touched, and nothing is written to the game itself.
+
+Deleting that folder resets the menu to defaults. It will simply make it again next
+time.
 
 ---
 
@@ -183,8 +204,8 @@ plugin only.
 
 **Ace-High** by **BigmanModz420**
 
-**cowboy-menu** base by **ricardoofnl**, used with permission. The Cowboy Base style is
-their design, kept as it was.
+[**cowboy-menu**](https://github.com/ricardoofnl/cowboy-menu) base by **ricardoofnl**,
+used with permission. The Cowboy Base style is their design, kept as it was.
 
 **Claude** (Anthropic), for the difficult code and for teaching me how the game works
 underneath it.
