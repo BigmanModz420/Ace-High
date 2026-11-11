@@ -53,7 +53,7 @@ Those two are simply the ones that have been checked.
 
 ## Install
 
-**1.** Download `Ace-High.prx` from Releases.
+**1.** Download `Ace-High.prx` from [Releases](https://github.com/BigmanModz420/Ace-High/releases).
 
 **2.** Copy it to your PS4:
 
@@ -163,6 +163,9 @@ out — let me know. It is not something I can test on my own.
 
 **Know RDR2 and want to help?** The list above is honest about what was tried. If you
 know the missing piece on any of them, get in touch.
+
+**Where to reach me:** open an
+[issue](https://github.com/BigmanModz420/Ace-High/issues) on this repo.
 
 And thank you. Anyone who takes the time to send a bug, a photo or a model name is
 doing me a real favour, and the next version will be better for it.
