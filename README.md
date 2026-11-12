@@ -8,6 +8,8 @@ A mod menu for **Red Dead Redemption 2** on a jailbroken PS4.
 
 Made by **BigmanModz420**.
 
+**Version 1.1** — see the [changelog](CHANGELOG.md) for what changed.
+
 > **Ace-High** — depending on the context, this might mean *first-class and respected*,
 > or it could mean a winning poker hand.
 
@@ -15,7 +17,7 @@ Made by **BigmanModz420**.
 
 ## Before you start
 
-This is my first mod menu and my first public release.
+This is my first mod menu, and I am still learning as I go.
 
 Everything in it has been tested on my own consoles before going out, and the parts that
 are not finished are listed below rather than left for you to find. But I am one person
@@ -119,14 +121,61 @@ Four cheats can be put on hotkeys, so you can use them without opening the menu.
 
 | Menu | What you get |
 |---|---|
-| **Player** | god mode, invisibility, super run, swim and jump, slow motion, unlimited stamina and dead eye, never wanted, noclip, outfits, emotes, scenarios, animations, explosions and fire wherever you aim |
-| **Law** | set your own bounty and wanted level |
-| **Weapons** | ammo, damage and accuracy |
-| **Horse** | god mode, speed, stamina, bonding, saddle upgrades, animations, never fall off, noclip |
+| **Player** | god mode, invisibility, super run, swim and jump, slow motion, unlimited stamina and dead eye, never wanted, noclip, overpowered cores, explosions and fire wherever you aim |
+| **Player → Change Model** | play as any of the 1,859 characters, animals and horses in the game — grouped and named |
+| **Player → Outfits** | ready-made outfits, and every garment in the game piece by piece |
+| **Player → Law** | set your own bounty and wanted level |
+| **Player → Money, Emotes, Scenarios, Animations** | give yourself money, and play any emote, scenario or animation |
+| **Weapon Options** | give weapons and ammo, damage, accuracy, one hit kill, dual wield, special ammo |
+| **Horse Options** | god mode, super run, stamina, bonding, animations, never fall off, noclip, bring your horse, speed display |
 | **Teleports** | waypoint, towns, and your own saved spots with your own names |
 | **Spawner** | people, animals, horses, wagons and boats — with a list to delete what you spawned |
-| **Weather and time** | set the weather, set the clock |
+| **Spawner → Wagon Options** | super run for the team, speed display, indestructible, keep the horses hitched, horses god mode, flip upright, repair |
+| **Weather & Time** | set the weather, set the clock |
 | **Settings** | two menu styles, your own open button, hotkeys, screen trims |
+
+---
+
+## Playing as someone else
+
+**Player > Change Model.** Every character, animal and horse in the game, with real
+names rather than model ids, split into **Protagonists**, **NPCs** (Story, Unique,
+Townsfolk), **Animals** (Animals, Horses) and **Others**. One press and you are them.
+
+Go back to Arthur and he returns in the clothes your save had him in.
+
+> **Use it from chapter 2 onwards.** In chapter 1 it kills you. The chapter's own scripts
+> hold the player and will not let go.
+
+A few models come out invisible. If you find one, send the name and it gets removed.
+
+---
+
+## About the clothing names
+
+Clothing shows the game's own names. Where a name repeats - `Trilby Hat`, `Trilby Hat 2`,
+`Trilby Hat 3` - those are the colour variants of the same item. Pick any one and press X
+to wear it.
+
+Some rows show a number instead, like `Belt 1` or `Hair 12`. The game has no name for
+those items, so there is nothing to show. It is not a missing feature and does not need
+reporting.
+
+The game has no colour names for single player clothing either, so the variants can only
+be numbered.
+
+---
+
+## Speed on screen
+
+**Speed Display** on Horse Options or Wagon Options: **Off**, **MPH** or **KM/H**. It
+puts a small bar under the hint showing how fast whatever is carrying you is actually
+going — your horse, or the wagon you are sitting in. Off by default, and your choice is
+saved.
+
+**Super Run on a wagon** tops out around 80 mph. It will not push while the wagon is off
+the ground, and it is held down over hills so it does not launch. Those numbers are a
+first pass and will likely change in a later version.
 
 ---
 
@@ -146,10 +195,11 @@ Not finished. Listed so you know they are missing on purpose.
 | | What happened |
 |---|---|
 | **Auto ride** | Several versions tried. None would follow the road or the GPS line properly, so it was taken out rather than shipped half working. |
-| **Change model** | Playing as another character needs something that has not been found yet. |
 | **Honor** | No way found to set it. |
 | **Horse animations while riding** | They only play when you are off the horse — the riding system overrides them. |
 | **Some wagons** | A few wagon names come back as a bad model and will not spawn. |
+| **Some models** | A few come out invisible when you change into them. Send the name and it gets removed. |
+| **Wagon super run** | Working, but the speed, the steering and how it handles hills are a first pass and will be tuned. |
 
 ---
 
