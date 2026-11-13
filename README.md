@@ -8,7 +8,8 @@ A mod menu for **Red Dead Redemption 2** on a jailbroken PS4.
 
 Made by **BigmanModz420**.
 
-**Version 1.1** — see the [changelog](CHANGELOG.md) for what changed.
+**Version 1.1** — see [Releases](https://github.com/BigmanModz420/Ace-High/releases)
+for what changed.
 
 > **Ace-High** — depending on the context, this might mean *first-class and respected*,
 > or it could mean a winning poker hand.
@@ -256,6 +257,9 @@ plugin only.
 
 [**cowboy-menu**](https://github.com/ricardoofnl/cowboy-menu) base by **ricardoofnl**,
 used with permission. The Cowboy Base style is their design, kept as it was.
+
+[**DaOfficialGaming**](https://www.youtube.com/@DaOfficialGaming), Thanks for covering Ace-High
+on YouTube — [watch the video](https://www.youtube.com/watch?v=ghKVoFNrgH8&t=4s).
 
 **Claude** (Anthropic), for the difficult code and for teaching me how the game works
 underneath it.
