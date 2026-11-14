@@ -8,7 +8,7 @@ A mod menu for **Red Dead Redemption 2** on a jailbroken PS4.
 
 Made by **BigmanModz420**.
 
-**Version 1.1** — see [Releases](https://github.com/BigmanModz420/Ace-High/releases)
+**Version 1.2** — see [Releases](https://github.com/BigmanModz420/Ace-High/releases)
 for what changed.
 
 > **Ace-High** — depending on the context, this might mean *first-class and respected*,
@@ -122,17 +122,18 @@ Four cheats can be put on hotkeys, so you can use them without opening the menu.
 
 | Menu | What you get |
 |---|---|
-| **Player** | god mode, invisibility, super run, swim and jump, slow motion, unlimited stamina and dead eye, never wanted, noclip, overpowered cores, explosions and fire wherever you aim |
+| **Player** | god mode, invisibility, super run, super swim, super jump, slow motion, unlimited stamina and dead eye, never wanted, noclip, overpowered cores, explosions and fire wherever you aim |
 | **Player → Change Model** | play as any of the 1,859 characters, animals and horses in the game — grouped and named |
 | **Player → Outfits** | ready-made outfits, and every garment in the game piece by piece |
 | **Player → Law** | set your own bounty and wanted level |
 | **Player → Money, Emotes, Scenarios, Animations** | give yourself money, and play any emote, scenario or animation |
-| **Weapon Options** | give weapons and ammo, damage, accuracy, one hit kill, dual wield, special ammo |
+| **Weapon Options** | own every weapon, equip any one of them by name, ammo, damage, accuracy, one hit kill, auto fire, special ammo |
 | **Horse Options** | god mode, super run, stamina, bonding, animations, never fall off, noclip, bring your horse, speed display |
 | **Teleports** | waypoint, towns, and your own saved spots with your own names |
-| **Spawner** | people, animals, horses, wagons and boats — with a list to delete what you spawned |
+| **Spawner** | people, animals, horses, wagons, boats and objects — by name, with lists to delete what you spawned |
+| **Spawner → Spawned Peds** | make them fight for you or attack you, follow, flee, hands up, heal, revive, freeze and more |
 | **Spawner → Wagon Options** | super run for the team, speed display, indestructible, keep the horses hitched, horses god mode, flip upright, repair |
-| **Weather & Time** | set the weather, set the clock |
+| **Weather & Time** | the game's own date and clock on screen, set the weather, the time and the date |
 | **Settings** | two menu styles, your own open button, hotkeys, screen trims |
 
 ---
@@ -177,6 +178,20 @@ saved.
 **Super Run on a wagon** tops out around 80 mph. It will not push while the wagon is off
 the ground, and it is held down over hills so it does not launch. Those numbers are a
 first pass and will likely change in a later version.
+
+---
+
+## Spawning things
+
+**Spawner → Objects** has barrels, crates, campfires, tents, chairs, tables, bottles,
+bales and more — seventy props in five groups, by name. One press drops one in front of
+you. **Spawned Objects** lists what you have put down so you can clear up after.
+
+**Spawn As Enemy** makes anything you spawn come at you from the moment it exists. Give
+it a revolver from the Spawned Peds page if you want a real fight.
+
+**Spawned Peds** is where you order them about: fight for you, attack you, follow, run
+away, hands up, wander off, heal, bring back to life, freeze, and the rest.
 
 ---
 
