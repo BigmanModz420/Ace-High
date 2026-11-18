@@ -4,11 +4,11 @@
 
 ### Deal yourself a better hand.
 
-A mod menu for **Red Dead Redemption 2** on a jailbroken PS4.
+A mod menu for **Red Dead Redemption 2** on a jailbroken PS4 — **with a PS5 back-compat port.**
 
 Made by **BigmanModz420**.
 
-**Version 1.2** — see [Releases](https://github.com/BigmanModz420/Ace-High/releases)
+**Version 1.3** — see [Releases](https://github.com/BigmanModz420/Ace-High/releases)
 for what changed.
 
 > **Ace-High** — depending on the context, this might mean *first-class and respected*,
@@ -49,6 +49,9 @@ combinations, on real hardware.
 It is not tied to a firmware version, so it should work on any PS4 running GoldHEN.
 Those two are simply the ones that have been checked.
 
+**On PS5:** run the game in backward compatibility and use the PS5 build
+(`Ace-High-PS5.prx`) — see the PS5 install below. It is an all-firmware build.
+
 > **Single player only.** Do not take this online. It gets you banned and it ruins other
 > people's games.
 
@@ -56,7 +59,9 @@ Those two are simply the ones that have been checked.
 
 ## Install
 
-**1.** Download `Ace-High.prx` from [Releases](https://github.com/BigmanModz420/Ace-High/releases).
+### PS4
+
+**1.** Download `Ace-High-ps4.prx` from [Releases](https://github.com/BigmanModz420/Ace-High/releases).
 
 **2.** Copy it to your PS4:
 
@@ -68,17 +73,31 @@ Those two are simply the ones that have been checked.
 
 ```
 [CUSA08519]
-/data/GoldHEN/plugins/Ace-High.prx=true
+/data/GoldHEN/plugins/Ace-High-ps4.prx=true
 ```
 
 ```
 [CUSA03041]
-/data/GoldHEN/plugins/Ace-High.prx=true
+/data/GoldHEN/plugins/Ace-High-ps4.prx=true
 ```
 
 **4.** Turn on the GoldHEN Plugin Loader and start the game.
 
 One file to copy, nothing else. The logo is built into the plugin.
+
+### PS5 (Back-Compat)
+
+Running the game on a **PS5** under backward compatibility? There is a separate build.
+
+**1.** Download `Ace-High-PS5.prx` from [Releases](https://github.com/BigmanModz420/Ace-High/releases).
+
+**2.** Load it with a **prx / sprx plugin loader** — I use **HyperHEN**. Add
+`Ace-High-PS5.prx` to your loader's plugin list the same way as any other prx/sprx plugin.
+
+**3.** Start Red Dead Redemption 2 (PS4 1.32) in back-compat.
+
+It is an **all-firmware** build, so it is not tied to a PS5 firmware. Same menu, same
+features as the PS4 version.
 
 ### What it creates on your PS4
 
@@ -130,11 +149,11 @@ Four cheats can be put on hotkeys, so you can use them without opening the menu.
 | **Weapon Options** | own every weapon, equip any one of them by name, ammo, damage, accuracy, one hit kill, auto fire, special ammo |
 | **Horse Options** | god mode, super run, stamina, bonding, animations, never fall off, noclip, bring your horse, speed display |
 | **Teleports** | waypoint, towns, and your own saved spots with your own names |
-| **Spawner** | people, animals, horses, wagons, boats and objects — by name, with lists to delete what you spawned |
+| **Spawner** | people, animals, horses, wagons, boats and objects — by name, with a **Legendary Animals** section and a **Freeze In Place** option, and lists to delete what you spawned |
 | **Spawner → Spawned Peds** | make them fight for you or attack you, follow, flee, hands up, heal, revive, freeze and more |
 | **Spawner → Wagon Options** | super run for the team, speed display, indestructible, keep the horses hitched, horses god mode, flip upright, repair |
 | **Weather & Time** | the game's own date and clock on screen, set the weather, the time and the date |
-| **Settings** | two menu styles, your own open button, hotkeys, screen trims |
+| **Settings** | two menu styles, your own open button, hotkeys, screen trims, text scale |
 
 ---
 
@@ -187,11 +206,17 @@ first pass and will likely change in a later version.
 bales and more — seventy props in five groups, by name. One press drops one in front of
 you. **Spawned Objects** lists what you have put down so you can clear up after.
 
+**Spawner → Legendary Animals** has the two legendaries with their own model — Legendary
+Boar and Tatanka Bison, each with a star. One press to spawn.
+
+**Freeze In Place** holds anything you spawn on the spot instead of letting it run off —
+handy for setting up a scene or a photo. It works on every animal and person.
+
 **Spawn As Enemy** makes anything you spawn come at you from the moment it exists. Give
 it a revolver from the Spawned Peds page if you want a real fight.
 
 **Spawned Peds** is where you order them about: fight for you, attack you, follow, run
-away, hands up, wander off, heal, bring back to life, freeze, and the rest.
+away, hands up, wander off, heal, bring back to life, freeze, unfreeze, and the rest.
 
 ---
 
@@ -200,7 +225,8 @@ away, hands up, wander off, heal, bring back to life, freeze, and the rest.
 The menu colours wash out and the text sits slightly high.
 
 Settings has two trims to put it right — **Text Height** and **Panel Depth**. Set them by
-eye once, save, and you are done.
+eye once, save, and you are done. There is also a **Text Scale** if you want the row text
+bigger.
 
 ---
 
@@ -216,6 +242,7 @@ Not finished. Listed so you know they are missing on purpose.
 | **Some wagons** | A few wagon names come back as a bad model and will not spawn. |
 | **Some models** | A few come out invisible when you change into them. Send the name and it gets removed. |
 | **Wagon super run** | Working, but the speed, the steering and how it handles hills are a first pass and will be tuned. |
+| **Legendary animal coats** | Only the two legendaries with their own model (Boar, Tatanka Bison) can be spawned. The other RDO legendary coats cannot be applied from a plugin on 1.32. |
 
 ---
 
@@ -237,7 +264,7 @@ Worth including:
 
 - **No messages on screen** when the game loads — the plugin never loaded. Check the
   path, that the `plugins.ini` section matches your game, and that the Plugin Loader
-  is on.
+  is on. On PS5, check your prx/sprx loader actually loaded the plugin.
 - **A message saying `inert`** — it loaded, but your game is not supported. The message
   says what it found.
 
