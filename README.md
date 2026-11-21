@@ -1,6 +1,6 @@
 <p align="center"><img src="ace-high.png" width="180"></p>
 
-# Ace-High
+# ACE-HIGH — RDR2 1.32 Mod Menu for PS4 & PS5
 
 ### Deal yourself a better hand.
 
